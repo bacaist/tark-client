@@ -391,6 +391,11 @@
                     });
                 }
                 $('.apz_price_tab li a').on('click', function () {
+                    if (this.getAttribute("href").includes("student")) {
+                        document.getElementsByName("person-type")[0].value = "student";
+                    } else {
+                        document.getElementsByName("person-type")[0].value = "tudor";
+                    }
                     $('.apz_price_tab li a').removeClass('active_hover');
                     $(this).addClass('active_hover');
                     var pLeft = $('.apz_price_tab li a.active_hover').position().left,
