@@ -8,7 +8,7 @@
     <title>Tark | Online Education Platform</title>
 
     <!-- favicon icon -->
-    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/font-awesome.min.css">
@@ -73,24 +73,26 @@
                     <div class="oppi_signup_body">
                         <div class="oppi_signup_inner">
                             <h3 class="sign_up_titlle text-center">Sign In</h3>
-                            <form action="#" method="POST" class="sign_up_form" netlify>
+                            <form action="/result.html" method="POST" name="signin-form" class="sign_up_form" netlify>
                                 <div class="form-group">
                                     <p>Email address</p>
-                                    <input type="email" class="form-control" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
+                                    <input type="email" name="email" required class="form-control" placeholder="Email" onfocus="this.placeholder=''" onblur="this.placeholder='Email'">
                                 </div>
                                 <div class="form-group">
                                     <p>Password</p>
-                                    <input type="password" class="form-control" placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'">
+                                    <input type="password" name="password" required class="form-control" placeholder="Password" onfocus="this.placeholder=''" onblur="this.placeholder='Password'">
                                 </div>
                                 <div class="form-group sign_up_btn_group">
                                     <button class="btn sign_up_btn" type="submit">Sign In</button>
                                 </div>
-                                <p class="oppi_sign_note sign_up_para text-right"><span class="float-left"><a href="#">Forgot password?</a></span> <span class="stay_here justify-content-end d-flex align-items-center"><input type="checkbox" id="stay"><label for="stay">Stay signed in</label></span></p>
-                                <p class="sign_up_para sign_with_social text-center">with your social network</p>
+                                <p class="oppi_sign_note sign_up_para text-right">
+                                    <span class="float-left hidden"><a href="#">Forgot password?</a></span> 
+                                    <span class="stay_here justify-content-end d-flex align-items-center"><input type="checkbox" id="stay"><label for="stay">Stay signed in</label></span></p>
+                                <!-- <p class="sign_up_para sign_with_social text-center">with your social network</p>
                                 <div class="social_sign_link text-center">
                                     <a href="#" class="social_googleplus"></a>
                                     <a href="#" class="social_facebook"></a>
-                                </div>
+                                </div> -->
                                 <p class="text-center have_an_account">New to oppi? <a href="sign_up.html">Sign Up Free</a></p>
                             </form>
                         </div>
