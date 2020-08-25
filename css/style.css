@@ -10298,8 +10298,10 @@ a.link:hover {
   .oppi_banner.oppi_banner_two .oppi_banner_img_content .banner_img .education_banner_img {
     max-width: 400px; }
   .oppi_f_mockup_sing_item .m_img .Left_mockup_img {
+    height: auto !important;
     max-width: 250px; }
   .oppi_f_mockup_sing_item .m_img .right_mockup_img {
+    height: auto !important;
     max-width: 250px; }
   .oppi_f_mockup_sing_item.mockup_left .mockup_details {
     left: 0; }
