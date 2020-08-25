@@ -9994,7 +9994,10 @@ a.link:hover {
 /*============== end @media (max-width: 1024px) =================*/
 @media (max-width: 992px) {
   .oppi_mockup_content {
-    padding-right: 50px; } }
+    padding-right: 50px; }
+    .oppi_feature_mockup_wrap{ 
+      overflow: hidden;
+    } }
 
 /*============== end @media (max-width: 992px) =================*/
 @media (max-width: 991px) {
