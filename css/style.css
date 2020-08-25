@@ -10523,6 +10523,8 @@ a.link:hover {
   .oppi_signup_wrap .left_img,
   .oppi_signup_wrap .right_img {
     display: none; } }
+  .oppi_header .header_nav .logo img + img {
+    display: none; }
 
 /*============== end @media (max-width: 768px) =================*/
 @media (max-width: 767px) {
